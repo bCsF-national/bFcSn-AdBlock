@@ -1,6 +1,6 @@
 # bCsF-Natio
 
-This repository is for the resources of [Block Crypto Shortner & Faucet (bCsF)]([https://github.com/bCsF-national). It receives all reports for new filters or existing filters that cause web page breakage. Any contributors are welcome. Contributors who are proven valuable will get write permissions to the repository.
+This repository is for the resources of [Block Crypto Shortner & Faucet (bCsF)](https://github.com/bCsF-national). It receives all reports for new filters or existing filters that cause web page breakage. Any contributors are welcome. Contributors who are proven valuable will get write permissions to the repository.
 
 The rationale for including a specific filter in bCsF'n filter lists is the same as the Easylist and also takes into account whether a filter requires bCsF'n extended filter syntax.
 
