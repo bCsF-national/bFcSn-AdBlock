@@ -1,0 +1,186 @@
+! Title: bFcSn filters
+! Description: Filters optimized for uBlock, to be used along EasyList
+! Last modified: %timestamp%
+! Homepage: 
+! New filters from July 2023 to ->
+
+offers4crypto.xyz,ewall.biz,walloffer.com,cryptoad.org,profitswall.com,dripoffers.com,adwallgate.com,offerwallmedia.com,offerwhales.com##+js(set, time, 0)
+offerwallmedia.com,hereofamily.com,go2.freetrx.fun,bitcotasks.com,read4btc.com##+js(nano-sib, timer)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site##^script:has-text(htmls)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site##+js(aeld, load, htmls)
+@@||pagead2.googlesyndication.com^$domain=mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|wiour.com|btcsatoshi.net|crypto4yu.com|readbitcoin.org|manofadan.com
+||freeoseocheck.com^$csp=script-src *
+||coinsvalue.net^$csp=script-src *
+||cookinguide.net^$csp=script-src *
+||cryptowidgets.net^$csp=script-src *
+||insurancegold.in^$csp=script-src *
+||wiki-topia.com^$csp=script-src *
+||makeupguide.net^$csp=script-src *
+||carstopia.net^$csp=script-src *
+||carsmania.net^$csp=script-src *
+||cryptowidgets.net^$csp=script-src *,badfilter
+bitcotasks.com,cryptowidgets.net##+js(nostif, check, 1)
+bitcotasks.com,cryptowidgets.net##+js(rmnt, script, adBlockDetected)
+bitcotasks.com,cryptowidgets.net##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
+||ourtecads.com^
+freeoseocheck.com#@#a[href^="https://shortano.link"] ~ :not(center)
+carsmania.net,carstopia.net,makeupguide.net#@#a[href^="https://shortino.link"] ~ :not(center)
+*$script,domain=blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net,redirect-rule=noopjs
+blog.carstopia.net,blog.carsmania.net,blog.makeupguide.net##+js(acs, document.createElement, adsBlocked)
+||blog.carstopia.net/post/$csp=style-src *
+||blog.carsmania.net/post/$csp=style-src *
+||blog.makeupguide.net/post/$csp=style-src *
+blog.carsmania.net,blog.carstopia.net,blog.makeupguide.net##.floating-banner
+blog.carsmania.net,blog.carstopia.net,blog.makeupguide.net##a[href^="https://shortino.link"] ~ :not(center)
+blog.carsmania.net,blog.carstopia.net##+js(acs, document.createElement, adsBlocked)
+blog.carstopia.net,blog.carsmania.net,blog.makeupguide.net##.fa-xmark
+carstopia.net,carsmania.net,blog.makeupguide.net##+js(aeld, load, htmls)
+carstopia.net,carsmania.net,makeupguide.net##^script:has-text(htmls)
+carsmania.net,carstopia.net,makeupguide.net##+js(acs, document.getElementById, adss)
+carstopia.net,carsmania.net##+js(acs, document.getElementById, add)
+carstopia.net,carsmania.net,makeupguide.net###ad.js
+mdn.lol##+js(ra, onmouseover, .g-recaptcha)
+mdn.lol###overlay
+mdn.lol##div[style^="width:305px;height"][style$="display: inline-block;margin: 0 auto;overflow:hidden;"]
+@@||taxedborley.com^$domain=mdn.lol
+||linearicons.com^$domain=exeo.app
+||clickiocdn.com/*log$script,important,from=mcafee-com.com,badfilter
+||mcafee-com.com^$csp=script-src *
+mcafee-com.com#@#+js()
+@@||d3u598arehftfk.cloudfront.net/prebid_$script,domain=mcafee-com.com
+@@||coinhub.wiki^$ghide
+coinhub.wiki#@#div[id^="ezoic-pub-ad-"]
+@@||cloudflare.com
+en.revly.click,multiclaim.net##^script:has-text(/TestAd|fakeAd|AdBlock|_0x|x5b9|download|onerror|adsBlocked|adsurfebe|alert|lipfoJyjxTvn/)
+multiclaim.net##+js(set, checkerr, true)
+multiclaim.net##+js(acis, addEventListener, document.getElementById)
+zoomfaucet.com,linkpayu.xyz#@#+js(aopr, console.clear)
+zoomfaucet.com,linkpayu.xyz##+js(set, console.clear, noopFunc)
+zoomfaucet.com,linkpayu.xyz##+js(aopr, Swal.fire)
+zoomfaucet.com,linkpayu.xyz##+js(nostif, _0x)
+blog24.me,earncrypto.co.in##+js(no-xhr-if, adx)
+@@||g.adspeed.net/ad.php?do=detectadblocker|$script,xhr
+go2.freetrx.fun,claimlite.club##+js(nostif, _0x)
+*$script,xhr,domain=hatecoin.me|contentos.one|nobitafc.com,redirect-rule=noopjs
+*$script,domain=grabcrypto.co|freebnb.top,redirect-rule=noopjs
+pinoyfaucet.com##+js(no-fetch-if, /^/)
+pinoyfaucet.com###wcfloatDiv4
+freebnb.top##+js(no-xhr-if, /coinzillatag|czilladx/)
+*$script,xhr,redirect-rule=noopjs,domain=teethblock.com
+||teethblock.com/banner/$image,1p
+*$script,xhr,redirect-rule=noopjs,domain=tron-free.com|dogepool.xyz
+||tron-free.com/banner/$image,1p
+||dawirax.com^$important
+||dood.yt^$important
+||mjtwoqupix.com^$important
+||ujhhfgbbhs.com^$important
+||gnzfwmnfiy.com^$important
+||lkyrxsfsust.com^$important
+||hitbits.io/slk/st/*$important
+||getitall.top/slk/st/*$important
+||pentafaucet.com/slk/st/*$important
+||offers4all.net/banner_api/*$important
+||cryptocoinsad.com/ads/*$important
+||gather.network^$important
+||catyrquabgcej.com^$important
+||s1.lcnf.pro^$important
+||mgr.consensu.org^$important
+||fmgvswcvdssrbc.com^$important
+||quantcast.com^$important
+||goevyqdlo.xyz^$important
+||wakesam.com^$important
+||wxvsrfurcdm.xyz^$important
+||cryptocoinsad.com/ads/show.php$subdocument
+||homeairquality.org/wp-content/*.jpg$image
+||terabox.fun/wfm/*$important
+||sofire.undefined^$domain=terabox.fun,important
+||linearicons.com^$domain=exeo.app
+||adqva.com^$important
+||qqtwdgwspie.com^$important
+||uphatter.com^$important
+||vhb.io^$important
+||netjtgcbe.xyz^$important
+#@#.ad-box
+~job.inshokuten.com,~sexgr.net,~webbtelescope.org##.ad-box:not(#ad-banner)
+allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,batmanfactor.com,phineypet.com,talkforfitness.com,rseducationinfo.com,rshostinginfo.com,rsadnetworkinfo.com,rsinsuranceinfo.com,rsfinanceinfo.com,rssoftwareinfo.com,cryptfaucet.com##.a, .b, .c, .d, .e, .f, .g
+allcryptoz.net,crewbase.net,crewus.net,phineypet.com,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##.a, .b, .c, .d, .e, .f, .g
+allcryptoz.net,crewbase.net,crewus.net,phineypet.com,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net###overlay
+allcryptoz.net,crewbase.net,crewus.net,phineypet.com,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##form > div[id]:style(display: block !important;)
+allcryptoz.net,crewbase.net,phineypet.com,shinbhu.net,talkforfitness.com##+js(acs, document.createElement, onerror)
+@@*$ghide,domain=talkforfitness.com|phineypet.com
+@@||ads2.banaraswap.in^$domain=techcyan.com
+@@||stats.wp.com^$domain=techcyan.com
+techcyan.com#@#.disadb
+techcyan.com#@#+js(aeld, DOMContentLoaded, eval)
+techcyan.com,upshrink.com###wg-genx > .disadb > .txtx
+techcyan.com#@#.disadb
+techcyan.com###wg-genx > .disadb > .txtx
+exactpay.online##+js(aopr, htmls)
+exactpay.online##+js(set, document.hasFocus, trueFunc)
+||exactpay.online/forex/index.js
+exalink.fun##+js(set, blurred, false)
+||earnbitmoon.club/promo/EBM-300x250.gif
+btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun##+js(aopr, htmls)
+btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org##+js(acs, document.getElementById, ads)
+@@||www.googletagmanager.com^$script,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|bakumoney.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com
+@@||btcsatoshi.net^$ghide
+@@||btcbitco.in^$ghide
+@@||crypto4yu.com^$ghide
+@@||readbitcoin.org^$ghide
+@@||wiour.com^$ghide
+@@||manofadan.com^$ghide
+@@||exactpay.online^$ghide
+@@||ohionowcast.info^$ghide
+@@||gaminginfos.com^$ghide
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,ohionowcast.info,cryptozao.com,exactpay.online,bakumoney.online,gaminginfos.com#@#ins.adsbygoogle
+||www.youtube.com^$domain=btcsatoshi.net
+*$frame,redirect-rule=noopframe,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
+*$xhr,redirect-rule=nooptext,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
+*$script,redirect-rule=noopjs,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
+*$image,redirect-rule=32x32.png:5,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
+btcbitco.in,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,exactpay.online,ohionowcast.info,cryptozao.com,gaminginfos.com#@#+js(abort-current-script, window.onload, innerHTML)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,ohionowcast.info,cryptozao.com,gaminginfos.com##+js(acs, addEventListener, devtools)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,ohionowcast.info,cryptozao.com,gaminginfos.com##+js(nostif, adContainer)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,ohionowcast.info,cryptozao.com,gaminginfos.com##+js(no-setTimeout-if, ads)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com##+js(acs, addEventListener, ads)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com##div[align="center"][id]:style(height: 30px !important;)
+@@||pagead2.googlesyndication.com/pagead/*$domain=www.btcbitco.in|btcsatoshi.net|wiour.com|crypto4yu.com|readbitcoin.or|manofadan.com
+@@||cdn.bmcdn5.com^$domain=btcsatoshi.net|btcbitco.in|wiour.com|crypto4yu.com|readbitcoin.org|manofadan.com
+@@||pagead2.googlesyndication.com^$domain=gaminginfos.com
+gaminginfos.com##+js(rmnt, script, /userAgent|adb|htmls/)
+gaminginfos.com##+js(aopr, document.write)
+wiour.com,v2p.icu,ltc25.in,blog24.me##+js(aeld, DOMContentLoaded, adsBlocked)
+wiour.com,v2p.icu,ltc25.in,blog24.me##+js(aeld, load, htmls)
+freecc.click,wiour.com,v2p.icu,ltc25.in,blog24.me##+js(nostif, alert)
+freecc.click,wiour.com,v2p.icu,ltc25.in,blog24.me##+js(aopr, Swal.fire)
+wiour.com,v2p.icu,ltc25.in,blog24.me##^script:has-text(htmls)
+*$script,redirect-rule=noopjs,domain=blog24.me|v2p.icu|wiour.com
+*$xhr,redirect-rule=nooptext,domain=blog24.me|v2p.icu|wiour.com
+@@||go2.freetrx.fun^$ghide
+@@||googletagmanager.com/gtm.js$domain=go2.freetrx.fun
+go2.freetrx.fun##+js(aeld, load, htmls)
+@@*$ghide,domain=softwaresolutionshere.com|wallarcade.com
+@@||chpadblock.com^$domain=banfaucet.com
+wallarcade.com##+js(aopr, adsBlocked)
+@@*$script,1p,domain=shopforex.online|healdad.com|mobitaak.com|gamalk-sehetk.com|otechno.net
+@@||shopforex.online^$ghide
+ckk.ai,tii.la,oko.sh##.banner-inner
+ckk.ai,tii.la,oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor|ads\/load/)
+tii.la##+js(no-xhr-if, /pagead2\.googlesyndication\.com|inklinkor\.com/)
+unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##+js(aopr, detectAdBlock)
+unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wpsafe-link:style(display: block !important)
+unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
+bazadecrypto.com##+js(nostif, myinfoey, 1500)
+bazadecrypto.com##body:style(display: block !important)
+bigbtc.win##^script:has-text(block-adb)
+!#if !cap_html_filtering
+bigbtc.win##+js(rmnt, script, block-adb)
+!#endif
+@@||bigbtc.win^$ghide
+bigbtc.win###block-adb-enabled
+bigbtc.win###main, #ielement:style(display: block !important;)
+bigbtc.win##div[style] > div[id] > script[src^="//ads.themoneytizer.com"]:upward(3)
+bitsmagic.fun,ourcoincash.xyz##^script:has-text(htmls)
+!#if !cap_html_filtering
+bitsmagic.fun,ourcoincash.xyz##+js(rmnt, script, htmls)
+!#endif
