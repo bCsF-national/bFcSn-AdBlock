@@ -169,6 +169,8 @@ wallarcade.com##+js(aopr, adsBlocked)
 ckk.ai,tii.la,oko.sh##.banner-inner
 ckk.ai,tii.la,oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor|ads\/load/)
 tii.la##+js(no-xhr-if, /pagead2\.googlesyndication\.com|inklinkor\.com/)
+*$script,redirect-rule=noopjs,domain=oko.sh|ckk.ai|tii.la
+ckk.ai,tii.la,oko.sh##+js(no-xhr-if, inklinkor.com)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##+js(aopr, detectAdBlock)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wpsafe-link:style(display: block !important)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
