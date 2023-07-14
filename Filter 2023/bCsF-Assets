@@ -1,7 +1,7 @@
 ! Title: bFcSn filters
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
-! Homepage: 
+! Homepage: https://github.com/bCsF-national/bCsF-AdBlock/blob/main/Filter%202023/bCsF-Assets
 ! New filters from July 2023 to ->
 
 offers4crypto.xyz,ewall.biz,walloffer.com,cryptoad.org,profitswall.com,dripoffers.com,adwallgate.com,offerwallmedia.com,offerwhales.com##+js(set, time, 0)
