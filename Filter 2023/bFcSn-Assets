@@ -176,7 +176,7 @@ unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wps
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
 bazadecrypto.com##+js(nostif, myinfoey, 1500)
 bazadecrypto.com##body:style(display: block !important)
-! request by someone in telegram
+mrproblogger.com,themezon.net##+js(aeld, load, doTest)
 bigbtc.win##^script:has-text(/block-adb|-0x/)
 !#if !cap_html_filtering
 bigbtc.win##+js(rmnt, script, /block-adb|-0x/)
