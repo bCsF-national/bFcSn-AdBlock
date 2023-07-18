@@ -6,8 +6,8 @@
 
 offers4crypto.xyz,ewall.biz,walloffer.com,cryptoad.org,profitswall.com,dripoffers.com,adwallgate.com,offerwallmedia.com,offerwhales.com##+js(set, time, 0)
 offerwallmedia.com,hereofamily.com,go2.freetrx.fun,bitcotasks.com,read4btc.com##+js(nano-sib, timer)
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com##^script:has-text(htmls)
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com##+js(aeld, load, htmls)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click##^script:has-text(htmls)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click##+js(aeld, load, htmls)
 @@||pagead2.googlesyndication.com^$domain=mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|wiour.com|btcsatoshi.net|crypto4yu.com|readbitcoin.org|manofadan.com
 ||freeoseocheck.com^$csp=script-src *
 ||coinsvalue.net^$csp=script-src *
@@ -122,8 +122,8 @@ exactpay.online##+js(set, document.hasFocus, trueFunc)
 ||exactpay.online/forex/index.js
 exalink.fun##+js(set, blurred, false)
 ||earnbitmoon.club/promo/EBM-300x250.gif
-btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun,bakumoney.com##+js(aopr, htmls)
-btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,bakumoney.com##+js(acs, document.getElementById, ads)
+btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun,bakumoney.com,coinsl.click##+js(aopr, htmls)
+btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,bakumoney.com,coinsl.click##+js(acs, document.getElementById, ads)
 @@||www.googletagmanager.com^$script,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|bakumoney.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com
 @@||btcsatoshi.net^$ghide
 @@||btcbitco.in^$ghide
