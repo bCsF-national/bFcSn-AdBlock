@@ -20,11 +20,12 @@ read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotas
 ||carsmania.net^$csp=script-src *
 ||cryptowidgets.net^$csp=script-src *,badfilter
 !#if env_firefox
-bitcotasks.com,cryptowidgets.net##+js(nostif, check, 1)
-bitcotasks.com,cryptowidgets.net##+js(rmnt, script, adBlockDetected)
-bitcotasks.com,cryptowidgets.net##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
+exalink.fun,bitcotasks.com,cryptowidgets.net##+js(nostif, check, 1)
+exalink.fun,bitcotasks.com,cryptowidgets.net##+js(rmnt, script, adBlockDetected)
+exalink.fun,bitcotasks.com,cryptowidgets.net##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
 ||ourtecads.com^
 !#endif
+@@||www.ourtecads.com^$domain=exalink.fun
 freeoseocheck.com#@#a[href^="https://shortano.link"] ~ :not(center)
 carsmania.net,carstopia.net,makeupguide.net#@#a[href^="https://shortino.link"] ~ :not(center)
 *$script,domain=blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net,redirect-rule=noopjs
