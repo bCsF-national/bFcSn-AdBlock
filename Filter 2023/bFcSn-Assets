@@ -123,8 +123,8 @@ exactpay.online##+js(set, document.hasFocus, trueFunc)
 ||exactpay.online/forex/index.js
 exalink.fun##+js(set, blurred, false)
 ||earnbitmoon.club/promo/EBM-300x250.gif
-btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun,bakumoney.com,coinsl.click##+js(aopr, htmls)
-btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,bakumoney.com,coinsl.click##+js(acs, document.getElementById, ads)
+btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun,bakumoney.com,coinsl.click,bazadecrypto.com##+js(aopr, htmls)
+btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,bakumoney.com,coinsl.click,bazadecrypto.com##+js(acs, document.getElementById, ads)
 @@||www.googletagmanager.com^$script,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|bakumoney.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com
 @@||btcsatoshi.net^$ghide
 @@||btcbitco.in^$ghide
