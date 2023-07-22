@@ -190,3 +190,10 @@ bitsmagic.fun,ourcoincash.xyz##^script:has-text(htmls)
 !#if !cap_html_filtering
 bitsmagic.fun,ourcoincash.xyz##+js(rmnt, script, htmls)
 !#endif
+@@||g.doubleclick.net/tag/js/gpt.js$domain=mynewsmedia.co|revadvert.com
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=mynewsmedia.co|revadvert.com
+@@||g.doubleclick.net/gampad/ads?$xhr,domain=mynewsmedia.co|revadvert.com
+@@||revadvert.com^$ghide
+@@||mynewsmedia.co^$ghide
+mynewsmedia.co,revadvert.com##iframe[id^="google_ads_iframe"]:style(height: 1px !important;)
+mynewsmedia.co,revadvert.com###footer-sticky-ad
