@@ -39,7 +39,7 @@ paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wik
 ||carstopia.net^$csp=script-src *
 ||carsmania.net^$csp=script-src *
 ||cryptowidgets.net^$csp=script-src *,badfilter
-@@||www.ourtecads.com^$domain=exalink.fun
+@@||www.ourtecads.com^$domain=exalink.fun|paylinks.cloud
 ||linearicons.com^$domain=exeo.app
 ||clickiocdn.com/*log$script,important,from=mcafee-com.com,badfilter
 ||mcafee-com.com^$csp=script-src *
