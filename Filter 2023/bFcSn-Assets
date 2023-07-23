@@ -29,7 +29,6 @@ carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,mak
 paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(nostif, check, 1)
 paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(rmnt, script, adBlockDetected)
 paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
-||ourtecads.com^
 ||freeoseocheck.com^$csp=script-src *
 ||coinsvalue.net^$csp=script-src *
 ||cookinguide.net^$csp=script-src *
