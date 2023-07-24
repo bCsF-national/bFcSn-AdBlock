@@ -1,9 +1,9 @@
 ! Title: bCsF-Natio filters – Cookie Notices
-! Description: |
+! Description: |blocking cookie save in device
 !   Filters optimized for bCsF-Natio, to be used with EasyList's
 ! Expires: 7 days
 ! Last modified: %timestamp%
-! Homepage: 
+! Homepage: https://github.com/bCsF-national/bFcSn-AdBlock/blob/main/Annoyances-Cookie
 
 
 !#if env_mobile
