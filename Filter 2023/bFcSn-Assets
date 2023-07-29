@@ -146,6 +146,7 @@ allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9
 @@||taxedborley.com^$domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 *$object,empty,domain=phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol
 #@##adsiframe
+mdn.lol##+js(nostif, /\.innerHtml|offsetWidth/)
 @@||ads2.banaraswap.in^$domain=techcyan.com
 @@||stats.wp.com^$domain=techcyan.com
 techcyan.com#@#.disadb
