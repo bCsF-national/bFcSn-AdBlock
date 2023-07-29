@@ -598,3 +598,7 @@ cryptoflare.net##div.text-center.col-xl-2.col-md-3.col-6 > center > center > cen
 cryptoflare.net##div.text-center.col-xl-2.col-md-3.col-6:nth-of-type(2)
 cryptoflare.net##div.text-center.col-xl-2.col-md-3.col-6:nth-of-type(3)
 cryptoflare.net##[src="https://11bit.co.in/banners/728x90_CW.png"]
+coinsward.com###popup
+coinsward.com##div.ads-container
+coinsward.com##div.box-primary.box:nth-of-type(2)
+adbitfly.click##.info
