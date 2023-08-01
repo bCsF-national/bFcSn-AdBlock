@@ -4,12 +4,12 @@
 ! Homepage: https://github.com/bCsF-national/bCsF-AdBlock/blob/main/Filter%202023/bCsF-Assets
 ! New filters from July 2023 to ->
 
-offers4crypto.xyz,ewall.biz,walloffer.com,cryptoad.org,profitswall.com,dripoffers.com,adwallgate.com,offerwallmedia.com,offerwhales.com##+js(set, time, 0)
-offerwallmedia.com,hereofamily.com,go2.freetrx.fun,bitcotasks.com,read4btc.com##+js(nano-sib, timer)
+||offers4crypto.xyz,ewall.biz,walloffer.com,cryptoad.org,profitswall.com,dripoffers.com,adwallgate.com,offerwallmedia.com,offerwhales.com##+js(set, time, 0)
+||offerwallmedia.com,hereofamily.com,go2.freetrx.fun,bitcotasks.com,read4btc.com##+js(nano-sib, timer)
 bitcotasks.com,mdn.lol,techydino.net##[class^="floating-banner"]
 *$script,redirect-rule=noopjs,domain=bitcotasks.com
 bitcotasks.com##+js(acs, document.createElement, adsBlocked)
-bitcotasks.com##+js(nostif, detected)
+@@bitcotasks.com##+js(nostif, detected)
 bitcotasks.com##^script:has-text(/onerror|detected.html/)
 bitcotasks,earnhub.net##ins[style^="display:inline-block"]
 ||bmcdn5.com^$script,redirect-rule=noop.js
@@ -18,49 +18,22 @@ read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotas
 read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech##+js(aeld, load, htmls)
 @@||pagead2.googlesyndication.com^$domain=mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|wiour.com|btcsatoshi.net|crypto4yu.com|readbitcoin.org|manofadan.com|cryptorotator.website|blog24.me
 *$csp=style-src *,domain=blog.cryptowidgets.net|blog.insurancegold.in|blog.wiki-topia.com|carsmania.net|carstopia.net|coinsvalue.net|cookinguide.net|freeoseocheck.com|makeupguide.net
-cryptowidgets.net,insurancegold.in,wiki-topia.com,carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(rmnt, script, /window\.location|Adblock/)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(acs, document.createElement, adsBlocked)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##.fa-xmark
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(aeld, load, htmls)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##^script:has-text(htmls)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(acs, document.getElementById, location.replace)
-*$script,redirect-rule=noopjs,domain=cryptowidgets.net|insurancegold.in|wiki-topia.com|carsmania.net|carstopia.net|coinsvalue.net|cookinguide.net|freeoseocheck.com|makeupguide.net
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##.floating-banner
-*$script,redirect-rule=noopjs,domain=cryptowidgets.net|insurancegold.in|wiki-topia.com|carsmania.net|carstopia.net|coinsvalue.net|cookinguide.net|freeoseocheck.com|makeupguide.net
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##^script:has-text(adsBlocked)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(ra, disabled, .btn-primary)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##input[type="hidden"]:style(display: block !important;)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com###countdown ~ :not(center)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(set, document.hasFocus, trueFunc)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com##+js(acs, document.getElementById, /ad(d|ss)/)
-carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net###ad\.js
-paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(nostif, check, 1)
-paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(rmnt, script, adBlockDetected)
-paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
-@@||www.ourtecads.com^$domain=exalink.fun|paylinks.cloud
-||linearicons.com^$domain=exeo.app
-||clickiocdn.com/*log$script,important,from=mcafee-com.com,badfilter
-||mcafee-com.com^$csp=script-src *
-mcafee-com.com#@#+js()
-@@||d3u598arehftfk.cloudfront.net/prebid_$script,domain=mcafee-com.com
-@@||coinhub.wiki^$ghide
-coinhub.wiki#@#div[id^="ezoic-pub-ad-"]
-@@||cloudflare.com
-multiclaim.net##^script:has-text(/TestAd|fakeAd|AdBlock|_0x|x5b9|download|onerror|adsBlocked|adsurfebe|alert|lipfoJyjxTvn/)
-multiclaim.net##+js(set, checkerr, true)
+@@cryptowidgets.net,insurancegold.in,wiki-topia.com,carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(rmnt, script, /window\.location|Adblock/)
+@@carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(acs, document.createElement, adsBlocked)
+@@carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##.fa-xmark
 multiclaim.net##+js(acis, addEventListener, document.getElementById)
-zoomfaucet.com,linkpayu.xyz#@#+js(aopr, console.clear)
+@@zoomfaucet.com,linkpayu.xyz#@#+js(aopr, console.clear)
 zoomfaucet.com,linkpayu.xyz##+js(set, console.clear, noopFunc)
 zoomfaucet.com,linkpayu.xyz##+js(aopr, Swal.fire)
-zoomfaucet.com,linkpayu.xyz##+js(nostif, _0x)
+||zoomfaucet.com,linkpayu.xyz##+js(nostif, _0x)
 blog24.me,earncrypto.co.in##+js(no-xhr-if, adx)
 @@||g.adspeed.net/ad.php?do=detectadblocker|$script,xhr
 go2.freetrx.fun,claimlite.club##+js(nostif, _0x)
 *$script,xhr,domain=hatecoin.me|contentos.one|nobitafc.com,redirect-rule=noopjs
 *$script,domain=grabcrypto.co|freebnb.top,redirect-rule=noopjs
-pinoyfaucet.com##+js(no-fetch-if, /^/)
-pinoyfaucet.com###wcfloatDiv4
-freebnb.top##+js(no-xhr-if, /coinzillatag|czilladx/)
+||pinoyfaucet.com##+js(no-fetch-if, /^/)
+||pinoyfaucet.com###wcfloatDiv4
+||freebnb.top##+js(no-xhr-if, /coinzillatag|czilladx/)
 *$script,xhr,redirect-rule=noopjs,domain=teethblock.com
 ||teethblock.com/banner/$image,1p
 *$script,xhr,redirect-rule=noopjs,domain=tron-free.com|dogepool.xyz
@@ -100,29 +73,9 @@ freebnb.top##+js(no-xhr-if, /coinzillatag|czilladx/)
 allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,rseducationinfo.com,rshostinginfo.com,rsadnetworkinfo.com,rsinsuranceinfo.com,rsfinanceinfo.com,rssoftwareinfo.com,cryptfaucet.com##.a, .b, .c, .d, .e, .f, .g
 @@||pagead2.googlesyndication.com^$domain=rseducationinfo.com|rshostinginfo.com|rsadnetworkinfo.com|rsinsuranceinfo.com|rsfinanceinfo.com|rssoftwareinfo.com
 @@||www.googletagmanager.com^$domain=phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##button[class^="btn-"]:upward(form):style(display: block !important;)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, _0x)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(set, blurred, false)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##[id^="gpt-passback"]:upward(table)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##[id^="promol"]
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,v,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, document.querySelectorAll, popMagic)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(aopw, _pop)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(set, blurred, false)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###wpsafe-generate, #wpsafe-link:style(display: block !important;)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###wpsafelink-countdown, #wpsafelinkhuman, div[id^="wpsafe-wait"]
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##.safelink-recatpcha:upward(1):style(display: block !important;)
-||scripts.cleverwebserver.com^$script,redirect-rule=noop.js
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##form > div[id]:style(display: block !important;)
-*$script,redirect-rule=noopjs,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###overlay
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, document.getElementById, /\$\('body'\)|\$\("body"\)/)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, addEventListener, document.getElementById)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, eval, replace)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, onload, jQuery)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(aopr, alert)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(no-fetch-if, wpadmngr)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, redURL)
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##^script:has-text(/fetch|AdBlock|demandSupply/)
+aiqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(no-fetch-if, wpadmngr)
+||allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, redURL)
+||allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##^script:has-text(/fetch|AdBlock|demandSupply/)
 allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nosiif, console)
 *$frame,redirect-rule=noopframe,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 *$xhr,redirect-rule=nooptext,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
@@ -131,12 +84,12 @@ allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9
 @@*$xhr,script,1p,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 @@||banner.infoey.com/adbanner.png$image,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 !#if env_firefox
-@@||js.wpadmngr.com/static/adManager.js$xhr,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+||@@||js.wpadmngr.com/static/adManager.js$xhr,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 !#endif
 /\/wp-content\/plugins\/(?:[a-z0-9]+){10,}\/(?:[a-z0-9]+){10,}\.js\?ver=/$domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com,important
 /\/uniqueten\.net\/[a-z]+\.js$/$script,important
 /adblock-detect.js$script,important,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, console)
+||allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, console)
 allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol#@##adsiframe
 @@||ad.a-ads.com/*?size=320x50$object,domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 @@||banner.infoey.com/adbanner.png$domain=mdn.lol|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
@@ -156,26 +109,7 @@ techcyan.com#@#.disadb
 techcyan.com###wg-genx > .disadb > .txtx
 exactpay.online##+js(aopr, htmls)
 exactpay.online##+js(set, document.hasFocus, trueFunc)
-||exactpay.online/forex/index.js
-exalink.fun##+js(set, blurred, false)
-||earnbitmoon.club/promo/EBM-300x250.gif
-btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun,bakumoney.com,coinsl.click,bazadecrypto.com,en.revly.click,link.oscut.fun##+js(aopr, htmls)
-btcbitco.in,btcsatoshi.net,wiour.com,manofadan.com,crypto4yu.com,readbitcoin.org,bakumoney.com,coinsl.click,bazadecrypto.com,en.revly.click,link.oscut.fun##+js(acs, document.getElementById, ads)
-@@||www.googletagmanager.com^$script,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|bakumoney.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com
-@@||btcsatoshi.net^$ghide
-@@||btcbitco.in^$ghide
-@@||crypto4yu.com^$ghide
-@@||readbitcoin.org^$ghide
-@@||wiour.com^$ghide
-@@||manofadan.com^$ghide
-@@||exactpay.online^$ghide
-@@||ohionowcast.info^$ghide
-@@||gaminginfos.com^$ghide
-btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,ohionowcast.info,cryptozao.com,exactpay.online,bakumoney.online,gaminginfos.com#@#ins.adsbygoogle
-||www.youtube.com^$domain=btcsatoshi.net
-*$frame,redirect-rule=noopframe,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
-*$xhr,redirect-rule=nooptext,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
-*$script,redirect-rule=noopjs,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
+|itco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
 *$image,redirect-rule=32x32.png:5,domain=btcsatoshi.net|btcbitco.in|crypto4yu.com|readbitcoin.org|wiour.com|manofadan.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
 btcbitco.in,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,exactpay.online,ohionowcast.info,cryptozao.com,gaminginfos.com#@#+js(abort-current-script, window.onload, innerHTML)
 btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com,ohionowcast.info,cryptozao.com,gaminginfos.com##+js(acs, addEventListener, devtools)
@@ -186,11 +120,8 @@ btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com
 @@||pagead2.googlesyndication.com/pagead/*$domain=www.btcbitco.in|btcsatoshi.net|wiour.com|crypto4yu.com|readbitcoin.or|manofadan.com
 @@||cdn.bmcdn5.com^$domain=btcsatoshi.net|btcbitco.in|wiour.com|crypto4yu.com|readbitcoin.org|manofadan.com
 @@||pagead2.googlesyndication.com^$domain=gaminginfos.com
-gaminginfos.com##+js(rmnt, script, /userAgent|adb|htmls/)
-gaminginfos.com##+js(aopr, document.write)
-wiour.com,v2p.icu,ltc25.in,blog24.me##+js(aeld, DOMContentLoaded, adsBlocked)
-wiour.com,v2p.icu,ltc25.in,blog24.me##+js(aeld, load, htmls)
-freecc.click,wiour.com,v2p.icu,ltc25.in,blog24.me##+js(nostif, alert)
+gami.icu,ltc25.in,blog24.me##+js(aeld, load, htmls)
+||freecc.click,wiour.com,v2p.icu,ltc25.in,blog24.me##+js(nostif, alert)
 freecc.click,wiour.com,v2p.icu,ltc25.in,blog24.me##+js(aopr, Swal.fire)
 wiour.com,v2p.icu,ltc25.in,blog24.me##^script:has-text(htmls)
 *$script,redirect-rule=noopjs,domain=blog24.me|v2p.icu|wiour.com
@@ -207,9 +138,9 @@ ckk.ai,tii.la,oko.sh##.banner-inner
 ckk.ai,tii.la,oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor|ads\/load/)
 tii.la##+js(no-xhr-if, /pagead2\.googlesyndication\.com|inklinkor\.com/)
 *$script,redirect-rule=noopjs,domain=oko.sh|ckk.ai|tii.la
-ckk.ai,tii.la,oko.sh##+js(no-xhr-if, inklinkor.com)
+||ckk.ai,tii.la,oko.sh##+js(no-xhr-if, inklinkor.com)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##+js(aopr, detectAdBlock)
-unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wpsafe-link:style(display: block !important)
+||unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wpsafe-link:style(display: block !important)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
 bazadecrypto.com##+js(nostif, myinfoey, 1500)
 bazadecrypto.com##body:style(display: block !important)
@@ -219,10 +150,10 @@ bigbtc.win##^script:has-text(/block-adb|-0x/)
 bigbtc.win##+js(rmnt, script, /block-adb|-0x/)
 !#endif
 @@||bigbtc.win^$ghide
-bigbtc.win###block-adb-enabled, #block-add-enabled
-bigbtc.win###main, #ielement:style(display: block !important;)
-bigbtc.win##div[style] > div[id] > script[src^="//ads.themoneytizer.com"]:upward(3)
-bitsmagic.fun,ourcoincash.xyz##^script:has-text(htmls)
+||bigbtc.win###block-adb-enabled, #block-add-enabled
+||bigbtc.win###main, #ielement:style(display: block !important;)
+||bigbtc.win##div[style] > div[id] > script[src^="//ads.themoneytizer.com"]:upward(3)
+||bitsmagic.fun,ourcoincash.xyz##^script:has-text(htmls)
 !#if !cap_html_filtering
 bitsmagic.fun,ourcoincash.xyz##+js(rmnt, script, htmls)
 !#endif
